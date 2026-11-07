@@ -5,8 +5,9 @@ Metropolia University Web(HTML, CSS, JavaScript) assignments
     JS modules 1 and 2
     
     #### Pinzariu ALbert-Andrei ####
+[Link to all module folders](https://users.metropolia.fi/~albertpi/programming/)
 
-[My link to js mod 1](https://users.metropolia.fi/~albertpi/js1_folder)
+[My link to js mod 1](https://users.metropolia.fi/~albertpi/programming/js1_folder/)
  Completed Tasks:
   -Task 1 1p
   -Task 2 2p
@@ -17,7 +18,7 @@ Metropolia University Web(HTML, CSS, JavaScript) assignments
 
  Total: 15 p
 
-[My link to js mod 2](https://users.metropolia.fi/~username/js2-folder)
+[My link to js mod 2](https://users.metropolia.fi/~albertpi/programming/js2_folder/)
 
 Completed assignments:
   -Task 1 2p
