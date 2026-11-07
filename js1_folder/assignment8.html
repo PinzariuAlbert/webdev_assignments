@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more leap years</title>
+</head>
+<body>
+    <ul id="listthingy"></ul>
+      <script>
+       const start=prompt("Please enter the start year:");
+       const end=prompt("Please enter the ending year:");
+        
+        let cnt = start;
+        for(cnt; cnt<=end; cnt++){
+            if ((cnt%4==0 && cnt%100!==0) || (cnt%400==0)) 
+            {
+                const resultDiv=document.getElementById("listthingy");
+                let element = document.createElement("li");
+                element.innerText =`${cnt}`;
+                resultDiv.appendChild(element);
+            }
+        }
+    </script>
+</body>
+</html>

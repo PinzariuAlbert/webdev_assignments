@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Console logging</h1>
+</head>
+<body>
+    <p id="result"></p>
+      <script>
+        let nrdice = parseInt(prompt("How many dice do you want to roll?"))
+        let sum = parseInt(prompt("What sum should they have"))
+
+        let sumcnt= 0;
+        let correctrolls= 0;
+        for(let i = 0; i<10000; i++){
+            let nrdicecnt=nrdice;
+            while(nrdicecnt){
+                sumcnt+=Math.floor(Math.random() *6)+1;
+                nrdicecnt--;
+            }
+            if(sumcnt==sum){
+                correctrolls++;
+            }
+            sumcnt=0
+        }
+        document.getElementById("result").innerText=`Probability to get sum ${sum} with ${nrdice} dice is ${Number.parseFloat(correctrolls/100).toFixed(2)}%`
+    </script>
+</body>
+</html>
