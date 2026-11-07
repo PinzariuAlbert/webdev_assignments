@@ -2,7 +2,6 @@
 Metropolia University Web(HTML, CSS, JavaScript) assignments
 
     Software 2 programming assignments
-    JS modules 1 and 2
     
     #### Pinzariu ALbert-Andrei ####
 [Link to all module folders](https://users.metropolia.fi/~albertpi/programming/)
