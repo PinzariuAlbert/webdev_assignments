@@ -7,20 +7,20 @@ Metropolia University Web(HTML, CSS, JavaScript) assignments
     #### Pinzariu ALbert-Andrei ####
 
 [My link to js mod 1](https://users.metropolia.fi/~albertpi/js1_folder)
-Completed Tasks:
--Task 1 1p
--Task 2 2p
--Task 3 3p
--Task 4 3p
--Task 5 3p
--task 8 3p
+ Completed Tasks:
+  -Task 1 1p
+  -Task 2 2p
+  -Task 3 3p
+  -Task 4 3p
+  -Task 5 3p
+  -task 8 3p
 
-TOtal: 15 p
+ Total: 15 p
 
 [My link to js mod 2](https://users.metropolia.fi/~username/js2-folder)
 
 Completed assignments:
--Task 1 2p
--Task 2 5p
+  -Task 1 2p
+  -Task 2 5p
 
-Total: 7p
+ Total: 7p
