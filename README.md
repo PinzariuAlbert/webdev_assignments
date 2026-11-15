@@ -32,3 +32,12 @@ Completed assignments:
   -Task 10 8p
 
  Total: 10p
+
+[My link to js mod 4](https://users.metropolia.fi/~albertpi/programming/js4_folder/)
+
+Completed assignments:
+  -Task 1 2p
+  -Task 11 4p
+  -Task 12 4p
+
+ Total: 10p
