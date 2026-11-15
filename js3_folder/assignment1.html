@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse number order</title>
+</head>
+<body>
+    <p>Reverse number order</p>
+    <script>
+        const v = []
+        const vcnt = []
+        for(let i=0; i<=4; i++ ){
+            v.push(prompt(`Add the ${i+1}th number: `));
+        }
+        for(let i =4 ; i>=0 ; i--){
+            vcnt.push(v[i])
+        }
+        console.log(`The reverse array is: ${vcnt}`);
+    </script>
+</body>
+</html>

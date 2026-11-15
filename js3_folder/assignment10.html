@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Program</title>
+</head>
+<body>
+    <p>Voting Program</p>
+    <script>
+        const nr_candidates = parseInt(prompt("What is the number of candidates?"))
+        const candidate_list = []
+        for(let i = 1; i<=nr_candidates; i++){
+            const name = prompt("what are teh candidates name? ");
+         //   const votes = prompt("How many votes do they have?");
+         candidate_list.push({
+            name: name.toLowerCase(),
+            votes: 0, 
+         })
+        }
+        var voters = parseInt(prompt("How many voters are there?"))
+        while(voters>0){
+            // i feel like im playingtonguetwisters lol
+        voter_vote = prompt("Who will this voter vote for?").toLowerCase()
+        for(candidate of candidate_list){
+            if(voter_vote == candidate.name){
+                candidate.votes++;
+            }
+        }
+        voters--;
+    }
+    candidate_list.sort((a, b) =>{
+        console.log(a, b);
+    b.votes - a.votes;
+    });
+    console.log(`The winner is: ${candidate_list[0].name}! With ${candidate_list[0].votes} votes!`)
+    console.log("Results:")
+    for(var i = 0 ; i<=candidate_list.length-1; i++){
+        console.log(`${candidate_list[i].name} : ${candidate_list[i].votes} votes`)
+    }
+    </script>
+</body>
+</html>
