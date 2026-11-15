@@ -24,3 +24,11 @@ Completed assignments:
   -Task 2 5p
 
  Total: 7p
+
+[My link to js mod 3](https://users.metropolia.fi/~albertpi/programming/js3_folder/)
+
+Completed assignments:
+  -Task 1 2p
+  -Task 10 8p
+
+ Total: 10p
